@@ -1,0 +1,15 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="zrosh_ui5_sap_splitapp.Splitcombo" xmlns:html="http://www.w3.org/1999/xhtml">
+	<SplitApp>
+	<masterPages>
+	
+	<mvc:XMLView viewName = "zrosh_ui5_sap_splitapp.Masterpage" id = "masterpage" /> 
+	</masterPages>
+	
+	<detailPages >
+	
+	<mvc:XMLView viewName = "zrosh_ui5_sap_splitapp.Detailpage" id = "id2" /> 
+	</detailPages>
+	
+	</SplitApp>
+</core:View>

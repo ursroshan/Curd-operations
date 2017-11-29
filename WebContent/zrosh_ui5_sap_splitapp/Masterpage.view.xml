@@ -1,0 +1,20 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="zrosh_ui5_sap_splitapp.Masterpage" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Master" id = "masterpage">
+		<content>
+	<List id = "idlist"  items = "{/ProductSet}" >
+	<headerToolbar>
+	<Toolbar>
+	<content>
+	<SearchField id = "onSearch" liveChange="Change" />
+	</content>
+	</Toolbar>
+	</headerToolbar>
+			<items>
+		<StandardListItem title="{ProductID}" type = "Navigation" press = "onPress" />
+				
+		</items>
+	</List>
+		</content>
+	</Page>
+</core:View>
